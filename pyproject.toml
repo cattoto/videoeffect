@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "비디오 영상에 특수 효과 처리하기"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+PyQt5==5.15.11
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
+numpy==1.23.5
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
